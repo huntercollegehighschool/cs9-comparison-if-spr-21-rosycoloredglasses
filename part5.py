@@ -23,3 +23,15 @@ not a month
 '''
 
 #start writing your code below
+m = str(input("Enter a month: "))
+
+if m == "January" or "March" or "May" or "July" or "August" or "October" or "December":
+  print ("31")
+elif m == "February":
+  print ("28 or 29")
+elif m == "April" or "June" or "September" or "November":
+  print ("30")
+else:
+  print ("not a month")
+
+#I knew what the code blocks were supposed to be, but for some reason, my results consistently popped up as "31" or "not a month" (depending on what I did), even though I had used the correct if, elif, else syntax.
