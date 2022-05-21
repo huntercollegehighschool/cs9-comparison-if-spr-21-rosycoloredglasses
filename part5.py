@@ -34,4 +34,4 @@ elif m == "April" or "June" or "September" or "November":
 else:
   print ("not a month")
 
-#I knew what the code blocks were supposed to be, but for some reason, my results consistently popped up as "31" or "not a month" (depending on what I had changed), even though I had the correct syntax for if, elif, else statements.
+#I knew what the code blocks were supposed to be, but for some reason, my results consistently popped up as "31" or "not a month" (depending on what I did), even though I had used the correct if, elif, else syntax.
